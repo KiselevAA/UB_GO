@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>viewAPP</title>
+    <style>
+        body {
+          background: linear-gradient(-45deg, #ffffff, #ffffff) transparent;
+        }
+        .modal-btn {
+            text-shadow: none;
+            box-sizing: border-box;
+            font-size: 15px;
+            height: auto;
+            line-height: 1;
+            padding: 13px;
+            background-color: #288cfb;
+         }
+         .modal-btn, .modal-btn[type=submit] {
+            text-shadow: 0 1px 3px rgba(56,61,109,0.7);
+            box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+            border-radius: 4px;
+            user-select: none;
+            background: #65aeff;
+            background-image: linear-gradient(top, #65aeff 0%,#288cfb 100%);
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            text-transform: uppercase;
+            display: inline-block;
+            outline: none;
+            color: #fff;
+            border: 1px solid #1e87fb;
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            font-family: inherit;
+            font-weight: normal;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 10%;
+            margin-left: 25%;
+          }
+          .modal-btn, .modal-btn[type=cancel] {
+             text-shadow: 0 1px 3px rgba(56,61,109,0.7);
+             box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+             border-radius: 4px;
+             user-select: none;
+             background: #65aeff;
+             background-image: linear-gradient(top, #65aeff 0%,#288cfb 100%);
+             width: 50%;
+             padding: 0;
+             margin: 0;
+             text-transform: uppercase;
+             display: inline-block;
+             outline: none;
+             color: #fff;
+             border: 1px solid #1e87fb;
+             font-size: 14px;
+             height: 30px;
+             line-height: 30px;
+             font-family: inherit;
+             font-weight: normal;
+             text-align: center;
+             cursor: pointer;
+             margin-top : 5px;
+             margin-left: 25%;
+           }
+           input[type=email] {
+                box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+                box-sizing: border-box;
+                border-radius: 4px;
+                font-size: 12px;
+                height: 30px;
+                line-height: 30px;
+                padding: 0 80px;
+                background: #FFF;
+                margin-top: 40;
+                margin-left: 15%;
+            }
+            input[type=password] {
+                 box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+                 box-sizing: border-box;
+                 border-radius: 4px;
+                 font-size: 12px;
+                 height: 30px;
+                 line-height: 30px;
+                 padding: 0;
+                 background: #FFF;
+                 margin-top: 10;
+                 margin-left: 15%;
+             }
+    </style>
+</head>
+<body>
+<div>
+     <input class="autofocus" id="member_session_username" name="member_session[username]" placeholder="Enter Email Address"  size="30" type="email" value="">
+     <input class="autofocus" id="member_session_username" name="member_session[password]" placeholder="Enter Password"       size="18" type="password" value="">
+     <button id="selFile" class="modal-btn" type="submit">login</button>
+     <button id="selFile" class="modal-btn" type="cancel">exit</button>
+</div>
+</body>
+</html>
